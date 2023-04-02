@@ -1,0 +1,24 @@
+{
+  "name": "@shcherbin/eslint-config-svelte-kit-typescript",
+  "description": "Shareable eslint SvelteKit typescript config",
+  "version": "0.2.0",
+  "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
+  "repository": "vladshcherbin/eslint-config-svelte-kit",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "eslint-plugin-svelte3": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "svelte": "^3.2.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "config.js"
+  ],
+  "license": "MIT"
+}
