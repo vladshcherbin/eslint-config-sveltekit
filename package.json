@@ -1,7 +1,7 @@
 {
   "name": "@shcherbin/eslint-config-svelte-kit-typescript",
   "description": "Shareable eslint SvelteKit typescript config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/eslint-config-svelte-kit",
   "dependencies": {
