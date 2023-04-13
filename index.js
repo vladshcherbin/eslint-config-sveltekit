@@ -52,7 +52,8 @@ module.exports = {
         'import/no-mutable-exports': 'off',
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
-        'no-multiple-empty-lines': 'off'
+        'no-multiple-empty-lines': 'off',
+        'no-undef-init': 'off'
       },
       plugins: [
         'svelte3'
