@@ -8,9 +8,29 @@
   "scripts": {
     "lint": "eslint src"
   },
+  "dependencies": {
+    "@shcherbin/eslint-config": "^0.18.1",
+    "eslint-plugin-svelte": "^3.8.1",
+    "globals": "^16.1.0",
+    "typescript-eslint": "^8.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3"
+  },
   "files": [
     "src"
   ],
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "unrs-resolver"
+    ]
+  },
   "type": "module",
   "license": "MIT"
 }
