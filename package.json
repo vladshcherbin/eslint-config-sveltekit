@@ -1,7 +1,7 @@
 {
   "name": "@shcherbin/eslint-config-sveltekit",
   "description": "Shareable eslint SvelteKit config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/eslint-config-sveltekit",
   "exports": "./src/index.js",
