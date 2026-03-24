@@ -20,8 +20,7 @@ export default defineConfig([
       }
     },
     rules: {
-      '@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true }],
-      'import-x/no-unresolved': ['error', { ignore: ['^\\$(app|env)'] }]
+      '@typescript-eslint/no-confusing-void-expression': ['error', { ignoreArrowShorthand: true }]
     },
     settings: {
       'import-x/core-modules': ['$app', '$env']
